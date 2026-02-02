@@ -1,8 +1,12 @@
-# Music_player_30_.github.io
-Hello 
-# Make a to do list
-[] Create repo folders
-[] Bring Music
-[] Bring old music player
-[] Case Study
-[] TBA
+# Music Player
+Class Lessons
+
+### To Do List
+- [x] Make a To Do List
+- [ ] Create repo folders
+- [ ] Bring Music
+- [ ] Bring old music player
+- [ ] Case Study
+- [ ] TBA
+
+---
