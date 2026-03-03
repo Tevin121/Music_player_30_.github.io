@@ -29,6 +29,7 @@ void divs() {
   float column4 = column3 + referent;
   float column5 = column4 + referent;
   float column6 = column5 + referent*2;
+  //println( column1, column2, column3, column4, column5, column6 );
   float row2 = row1 + textHeight + referent*1/2;
   float row3 = row2 + referent + referent*1/2;
   //
@@ -44,7 +45,7 @@ void divs() {
     divs[3] += errorIncrease; //Increase height
   }
   //
-  for ( int i=0; i<divs.length; i++) {
+  for ( int i=4; i<divs.length; i++) { //CAUTION: i=4 until above rewritten
     if ( i%4==0 && int(i/4)==0 ) {
       divs[i] = appWidth*1/4;
     } else if ( i%4==0 && int(i/4)==1 ) {
@@ -125,13 +126,13 @@ void divs() {
   //divs[i] = textWidth;
   //divs[i] = referent;
 
-  //Left Over Buttons: 36-51
+  //Left Over Buttons: 36-55
   //divs[i] = column1;
   //divs[i] = row3;
   //divs[i] = textWidth;
   //divs[i] = referent;
 
-  //Meta Data Rectangles: 52-59
+  //Meta Data Rectangles: 56-63
   //divs[i] = column6;
   //divs[i] = row1;
   //divs[i] = textWidth;

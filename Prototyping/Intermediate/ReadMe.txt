@@ -35,3 +35,18 @@ Using Even-Odd Modulus
 Using Modulus of Groups of Four
 
 Using Boolean ON-OFF in IF Statements
+
+---
+
+v4: Buttons working, accessing specific divs[numbers]
+
+ERROR Catches introducing Multiple Constructors & Formatting accommodating for different print-line statements
+
+---
+
+v5: Polynomials Introduction
+
+---
+
+NEXT 2D Music Shapes
+
