@@ -123,7 +123,7 @@ void seeQuitMusicButton() {
   for ( int j=4; j<9; j+=4 ) {
     rectDIV(divs[j], divs[j+1], divs[j+2], divs[j+3]);
   }
-}//End See Music GUI
+}//End See Quit & Music Button
 void seeMusicGUI() {
   int j=0;
   rectDIV(divs[j], divs[j+1], divs[j+2], divs[j+3]);
