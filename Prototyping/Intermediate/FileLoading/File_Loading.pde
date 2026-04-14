@@ -26,6 +26,7 @@ void fileReading(String directory) {
   File directoryLocal = new File(directory); //Uses Java Library to create class (variables & code)
   //File[] fileNames local & used for both music and images
   File[] fileNames = directoryLocal.listFiles(); //Uses built in class to list all files
+  ErrorCheck("Here, to delete", fileNames);
   //
   //String[] files local and used for both music and images
   String[] files = new String[fileNames.length];

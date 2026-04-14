@@ -35,3 +35,7 @@ void ErrorCheck(String statement, float[] array) {
   println("\n" + statement);
   printArray(array);
 }
+void ErrorCheck(String statement, File[] array) {
+  println("\n" + statement);
+  printArray(array);
+}
